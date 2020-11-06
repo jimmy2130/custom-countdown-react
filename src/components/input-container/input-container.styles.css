@@ -1,0 +1,19 @@
+.input-container {
+  position: relative;
+  top: 20px;
+}
+
+/* Form */
+.form {
+  width: 480px;
+}
+
+@media screen and (max-width: 600px) {
+  .input-container {
+    top: unset;
+  }
+
+  .form {
+    width: unset;
+  }
+}

@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import InputContainer from './components/input-container/input-container.component';
+// import Countdown from './components/countdown/countdown.component';
+// import Complete from './components/complete/complete.component';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="background"></div>
+      <div className="container">
+        <InputContainer />
+      </div>
     </div>
   );
 }
